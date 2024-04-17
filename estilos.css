@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+#divPrincipal, #divAdicional {
+    height: 30em;
+    width: 98%;
+    background-color: beige;
+}
+
+#divAdicional {
+    background-color: rgb(103, 103, 214);
+}
+
+#divPrincipal > div, #divAdicional > div {
+    width: 40%;
+    margin: 2em;
+    display: inline-block;
+    height: 20em;
+    text-align: center;
+    color: white;
+}
+
+div > div:hover {
+    filter: grayscale(20%);
+    transform: scale(1.01);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    box-shadow: 1em 2em 5em grey;
+}
+
+#divAdicionar {
+    background-color: green;
+}
+
+#divSustraer {
+    background-color: red;
+}
+
+#divAgregarArticulo {
+    background-color: blue;
+}
+
+#divEliminarArticulo {
+    background-color: orangered;
+}
+
+h3 {
+    font-size: 1.5em;
+    padding: 20% 0 0 0;
+}
+
+

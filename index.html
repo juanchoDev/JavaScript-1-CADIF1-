@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 1 JS II</title>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+    <div id="divPrincipal" onclick="mostrarArticulos()">
+        <h2>Desafio 1 JS II: Agrega o sustrae cantidades de articulos disponibles.</h2>
+        <div id="divAdicionar" onclick="realizarAccion('adicionar', event)">
+            <h3>ADICIONAR</h3>
+        </div>
+        <div id="divSustraer" onclick="realizarAccion('sustraer', event)">
+            <h3>SUSTRAER</h3>
+        </div>
+    </div>
+    <div id="divAdicional" onclick="mostrarArticulos()">
+        <h2>Adicional: Elimina o agregar nuevos articulos</h2>
+        <div id="divAgregarArticulo" onclick="agregarOEliminar('agregar', event)">
+            <h3>AGREGAR ARTICULO</h3>
+        </div>
+        <div id="divEliminarArticulo" onclick="agregarOEliminar('eliminar', event)">
+            <h3>ELIMINAR ARTICULO</h3>
+        </div>
+    </div>
+</body>
+<script src="./desafio1.js"></script>
+</html>
